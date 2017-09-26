@@ -1,6 +1,6 @@
 {
-  "name": "coinfrenzy",
-  "description": "bitcoin jackpot",
+  "name": "cf",
+  "description": "",
   "main": "server.js",
   "authors": [
     "n"
