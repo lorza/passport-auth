@@ -1,0 +1,13 @@
+#navbar {
+    background-color: white !important;
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+#navbar a {
+    color: black;
+}
+
+#sidebar {
+    height: 100%;
+}

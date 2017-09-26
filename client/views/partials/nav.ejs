@@ -1,0 +1,27 @@
+<nav id="navbar">
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo">CoinFrenzy</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">=</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+            <script>
+                $(document).ready(function() {
+                    $(".button-collapse").sideNav();
+                })
+            </script>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Register</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
